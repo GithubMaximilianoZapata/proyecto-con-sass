@@ -1,0 +1,120 @@
+
+.aguila {
+  width: 55%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #e91f1f;
+  background-image: linear-gradient(315deg, #e91f1f 12%, #e7da43 49%, #dd6125 77%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body h1 {
+  font-family: "Arima";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body .colorNav {
+  color: black;
+  font-family: fantasy;
+  font-size: 22px;
+  padding: 10px;
+}
+body .colorNav:hover {
+  color: rgb(117, 23, 23);
+}
+@media screen and (max-width: 768px) {
+  body .colorNav {
+    font-family: "Mouse Memoirs";
+  }
+}
+
+section {
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+section h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-family: Impact;
+}
+section p {
+  font-family: "Roboto Ital 100";
+  padding-right: 20px;
+}
+section p::first-letter {
+  font-size: 26px;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bolder;
+}
+section .styleImg {
+  border: 3px solid black;
+  border-radius: 3%;
+}
+section .margen {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+section .centrar {
+  margin-left: 13px;
+}
+section .padding-top {
+  padding-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  section .mobile1 {
+    flex-direction: column-reverse;
+  }
+  section h2 {
+    font-family: "Rubik Dirt";
+  }
+  section h2, section .contac {
+    margin-top: 20px;
+  }
+}
+
+section div {
+  margin-top: 10px;
+}
+section div ul {
+  list-style: none;
+}
+
+textarea, input, button {
+  background-color: #FAD961;
+  background-image: linear-gradient(315deg, #FAD961 0%, #F76B1C 100%);
+  font-size: 1.4rem;
+  color: black;
+  border: 0.2rem solid black;
+  width: 20rem;
+  resize: none;
+}
+
+.contac {
+  font-family: "Oswald300";
+  font-size: 1rem;
+  font-weight: bold;
+  list-style: none;
+}
+
+#youtube, #blog, #wsp {
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Roboto Ital 100";
+  text-decoration: none;
+  font-weight: bold;
+  list-style: none;
+}
+#youtube:hover, #blog:hover, #wsp:hover {
+  color: rgb(14, 14, 126);
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

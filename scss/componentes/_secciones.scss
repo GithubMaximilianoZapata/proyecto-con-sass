@@ -1,0 +1,44 @@
+section {
+    margin-top: 33px;
+    margin-bottom: 30px;
+    h2 {
+        font-weight: normal;
+        margin-bottom: 20px;
+        font-family: nth($family, 3);
+    }
+    p {
+        font-family: nth($family, 7);
+        padding-right: 20px;
+        &::first-letter{
+            font-size: nth($size, 2);
+            font-family: nth($family , 9);
+             font-style: italic;
+            font-weight: bolder;
+        }
+    }
+    .styleImg{
+        border: 3px solid black;
+        border-radius: 3%;
+    }
+    .margen{
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .centrar{
+        margin-left: 13px;
+    }
+    .padding-top{
+        padding-top: 15px;
+    }
+    @media screen and (max-width: 768px) {
+        .mobile1{
+            flex-direction: column-reverse;     
+        }
+        h2{
+            font-family: nth($family , 11);
+        }
+        h2, .contac{
+            margin-top: 20px;
+        }
+    }
+}
