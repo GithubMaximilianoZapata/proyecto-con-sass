@@ -1,0 +1,22 @@
+%formulario{
+    background-color: $bg-color-form;
+    background-image: $bg-image-form;
+    font-size: nth($size, 5);
+    color: $color-letra;
+    border: $borde-form;
+    width: $ancho-form;
+    resize: none;      
+}
+
+%redes{
+    color: $color-letra;
+    font-size: nth($size, 6);
+    font-family: nth($family, 7);
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    &:hover {
+        color: $color-hover-form;
+        text-decoration: underline;
+    }
+}
