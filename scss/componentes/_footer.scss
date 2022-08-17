@@ -9,10 +9,10 @@ textarea, input, button {
 }
 
 .contac {
-    font-family: nth($family, 10);
-    font-size: nth($size , 4);
-    font-weight: bold;
-    list-style: none;
+    font-family: map-get($lista-contacto, fuente);
+    font-size: map-get($lista-contacto, tamano);
+    font-weight: map-get($lista-contacto, negrita);
+    list-style: map-get($lista-contacto, estilo);
 }
 
 #youtube, #blog, #wsp {

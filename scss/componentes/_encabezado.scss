@@ -1,6 +1,6 @@
+
 .aguila{
-    width: 55%;
-    margin: 0 auto;
+    @include logo ($ancho, $centrado);
 }
 body {
     background-color: $bg-color-fondo;

@@ -1,0 +1,10 @@
+
+// PROPIEDADES PARA LOGO CENTRAL class .aguila 
+
+$ancho: 55%;
+$centrado: 0 auto;
+
+@mixin logo ($ancho, $centrado) {
+    width: $ancho;
+    margin: $centrado;
+}
