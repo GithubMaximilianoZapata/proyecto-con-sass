@@ -1,3 +1,34 @@
+textarea, input, button {
+  background-color: #FAD961;
+  background-image: linear-gradient(315deg, #FAD961 0%, #F76B1C 100%);
+  font-size: 1.4rem;
+  color: black;
+  border: 0.2rem solid black;
+  width: 20rem;
+  resize: none;
+}
+
+#wsp {
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Roboto Ital 100";
+  text-decoration: none;
+  font-weight: bold;
+  list-style: none;
+}
+
+#youtube, #blog {
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Roboto Ital 100";
+  text-decoration: none;
+  font-weight: bold;
+  list-style: none;
+}
+#youtube:hover, #blog:hover {
+  color: rgb(14, 14, 126);
+  text-decoration: underline;
+}
 
 .aguila {
   width: 55%;
@@ -62,9 +93,6 @@ section .margen {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-section .centrar {
-  margin-left: 13px;
-}
 section .padding-top {
   padding-top: 15px;
 }
@@ -87,34 +115,11 @@ section div ul {
   list-style: none;
 }
 
-textarea, input, button {
-  background-color: #FAD961;
-  background-image: linear-gradient(315deg, #FAD961 0%, #F76B1C 100%);
-  font-size: 1.4rem;
-  color: black;
-  border: 0.2rem solid black;
-  width: 20rem;
-  resize: none;
-}
-
 .contac {
   font-family: "Oswald300";
   font-size: 1rem;
   font-weight: bold;
   list-style: none;
-}
-
-#youtube, #blog, #wsp {
-  color: black;
-  font-size: 1.5rem;
-  font-family: "Roboto Ital 100";
-  text-decoration: none;
-  font-weight: bold;
-  list-style: none;
-}
-#youtube:hover, #blog:hover, #wsp:hover {
-  color: rgb(14, 14, 126);
-  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

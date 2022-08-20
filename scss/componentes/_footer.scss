@@ -15,6 +15,10 @@ textarea, input, button {
     list-style: map-get($lista-contacto, estilo);
 }
 
-#youtube, #blog, #wsp {
+#youtube, #blog {
    @extend %redes;
+}
+
+#wsp {
+    @extend %wsp;
 }
