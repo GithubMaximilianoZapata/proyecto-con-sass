@@ -4,6 +4,7 @@ textarea, input, button {
   font-size: 1.4rem;
   color: black;
   border: 0.2rem solid black;
+  border-radius: 5%;
   width: 20rem;
   resize: none;
 }
@@ -26,7 +27,7 @@ textarea, input, button {
   list-style: none;
 }
 #youtube:hover, #blog:hover {
-  color: rgb(14, 14, 126);
+  color: rgba(61, 4, 4, 0.822);
   text-decoration: underline;
 }
 
@@ -49,7 +50,10 @@ body h1 {
   font-style: italic;
   font-weight: bolder;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+body .decoracion-destacada {
+  text-decoration: underline;
 }
 body .colorNav {
   color: black;
@@ -58,11 +62,18 @@ body .colorNav {
   padding: 10px;
 }
 body .colorNav:hover {
-  color: rgb(117, 23, 23);
+  color: rgb(136, 6, 6);
 }
 @media screen and (max-width: 768px) {
   body .colorNav {
     font-family: "Mouse Memoirs";
+    padding: 3px;
+  }
+  body .link-destacado {
+    padding-right: 0px;
+  }
+  body h1 {
+    margin-bottom: 0px;
   }
 }
 
@@ -106,6 +117,10 @@ section .padding-top {
   section h2, section .contac {
     margin-top: 20px;
   }
+  section .margen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 section div {
@@ -113,6 +128,15 @@ section div {
 }
 section div ul {
   list-style: none;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  section div ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
 }
 
 .contac {

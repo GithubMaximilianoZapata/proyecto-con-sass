@@ -4,6 +4,7 @@
     font-size: nth($size, 5);
     color: $color-letra;
     border: $borde-form;
+    border-radius: 5%;
     width: $ancho-form;
     resize: none;      
 }
