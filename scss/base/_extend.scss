@@ -5,7 +5,9 @@
     color: $color-letra;
     border: $borde-form;
     width: $ancho-form;
-    resize: none;      
+    resize: none;
+    border: 3px solid black;
+    border-radius: 3.5%;      
 }
 
 %wsp{

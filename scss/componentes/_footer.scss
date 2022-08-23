@@ -2,6 +2,7 @@ section div {
     margin-top: 10px;
     ul{
         list-style: none;
+        
     }
 }
 textarea, input, button {
@@ -13,6 +14,19 @@ textarea, input, button {
     font-size: map-get($lista-contacto, tamano);
     font-weight: map-get($lista-contacto, negrita);
     list-style: map-get($lista-contacto, estilo);
+    padding-top: 40px;
+    @media screen and (max-width: 768px) {
+        .contac {
+            padding-top: 0%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0%;
+            padding-bottom: 30px;
+        }
+    }
+}
+.up {
+    padding-top: 20px;
 }
 
 #youtube, #blog {

@@ -6,6 +6,8 @@ textarea, input, button {
   border: 0.2rem solid black;
   width: 20rem;
   resize: none;
+  border: 3px solid black;
+  border-radius: 3.5%;
 }
 
 #wsp {
@@ -106,6 +108,10 @@ section .padding-top {
   section h2, section .contac {
     margin-top: 20px;
   }
+  section .margen {
+    margin-top: 22px;
+    margin-bottom: 18px;
+  }
 }
 
 section div {
@@ -120,6 +126,20 @@ section div ul {
   font-size: 1rem;
   font-weight: bold;
   list-style: none;
+  padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .contac .contac {
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    padding-bottom: 30px;
+  }
+}
+
+.up {
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
