@@ -28,7 +28,7 @@ textarea, input, button {
   list-style: none;
 }
 #youtube:hover, #blog:hover {
-  color: rgb(14, 14, 126);
+  color: rgb(128, 12, 12);
   text-decoration: underline;
 }
 
