@@ -12,7 +12,7 @@
 
 %wsp{
     color: $color-letra;
-    font-size: nth($size, 6);
+    font-size: nth($size, 4);
     font-family: nth($family, 7);
     text-decoration: none;
     font-weight: bold;
@@ -21,11 +21,11 @@
 
 %redes{
     color: $color-letra;
-    font-size: nth($size, 6);
+    font-size: nth($size, 4);
     font-family: nth($family, 7);
     text-decoration: none;
     font-weight: bold;
-    list-style: none;
+    list-style: none;        
     &:hover {
         color: $color-hover-form;
         text-decoration: underline;

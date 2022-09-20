@@ -12,7 +12,7 @@ textarea, input, button {
 
 #wsp {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.28rem;
   font-family: "Roboto Ital 100";
   text-decoration: none;
   font-weight: bold;
@@ -21,7 +21,7 @@ textarea, input, button {
 
 #youtube, #blog {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.28rem;
   font-family: "Roboto Ital 100";
   text-decoration: none;
   font-weight: bold;
@@ -123,7 +123,7 @@ section div ul {
 
 .contac {
   font-family: "Oswald300";
-  font-size: 1rem;
+  font-size: 1.28rem;
   font-weight: bold;
   list-style: none;
   padding-top: 40px;
